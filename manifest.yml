@@ -1,0 +1,9 @@
+---
+applications:
+  - name: cf-cli-test
+    timeout: 180
+    instances: 1
+    stack: cflinuxfs3
+    env:
+      FOO1: "01234567689.1234567890123"
+      FOO2: "((value))"
